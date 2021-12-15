@@ -1,7 +1,7 @@
 package detailedCar;
 
 public class IndiaFact implements CarFactory {
-	String type;
+	String type;//
 	@Override
 	public void build(String type){
 		switch(type){

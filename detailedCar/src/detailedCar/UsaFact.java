@@ -1,7 +1,7 @@
 package detailedCar;
 
 public class UsaFact implements CarFactory {
-	String location;
+	String location;//USA
 	String type;
 	@Override
 	public void build(String type){

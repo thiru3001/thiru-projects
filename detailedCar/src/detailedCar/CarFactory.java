@@ -2,6 +2,6 @@ package detailedCar;
 
 public interface CarFactory {
 	
-	void build(String type); //test git changes
+	void build(String type); //test git changes 2
 
 }
