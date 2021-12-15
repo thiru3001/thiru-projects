@@ -1,5 +1,5 @@
 package detailedCar;
 
 public interface Car {
- void build();
+ void build(String county);
 }

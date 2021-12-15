@@ -2,11 +2,17 @@ package detailedCar;
 
 public class MiniCar implements Car {
 
-	
-	public void build() {
+	String county;
+	@Override
+	public void build( String county ) {
+		if(county.equals("india")){
 		
-		System.out.println("building mini car.....");
+		System.out.println("building india mini car.....");
+		}else{
+			System.out.println("building usa mini car.....");
+		}
 		
 	}
+	
 
 }
