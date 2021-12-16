@@ -1,8 +1,8 @@
 package detailedCar;
 
 public class CommFact {
-	String location;
-	String type;
+//	String location;
+//	String type;
 	CarFactory fact=null;
 	public void buildCar(String location ,String type){
 		
